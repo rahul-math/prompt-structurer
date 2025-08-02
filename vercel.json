@@ -1,9 +1,7 @@
 {
-  "functions": {
-    "src/**/*.ts": {
-      "runtime": "nodejs18.x"
-    }
-  },
+  "buildCommand": "vite build",
+  "outputDirectory": "dist",
+  "framework": "vite",
   "env": {
     "VITE_GEMINI_API_KEY": "your_actual_api_key_here"
   }
